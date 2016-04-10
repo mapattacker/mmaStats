@@ -1,6 +1,9 @@
 # mmaStats
 
 ### Description
+
+A mini-project to extrct and visualise the relationships and statistics of mixed martial arts (MMA) fighters.
+
 1) mmacreatepy.py: Create sqlite database and schema for holding data
 
 2) mmascrape.py: Scrape mma website for fighters' data.
