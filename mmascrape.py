@@ -3,7 +3,7 @@ from urlparse import urlparse
 import urllib, sqlite3, time, traceback
 
 #############ENTER VARIABLES#####################
-sleepTime = 0   #change sleep time per webpage query (in sec)
+sleepTime = 1   #change sleep time per webpage query (in sec)
 #################################################
 
 start = time.time()
