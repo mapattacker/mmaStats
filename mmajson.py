@@ -21,7 +21,7 @@ for row in cur:
 fileHandler = open('mma.js', 'w')
 
 #############create nodes into json
-#note weight and id are redundant
+#note id is redundant
 fileHandler.write('mmaJson = {"nodes":[\n')
 fighterID = []
 fighterCount = {}
@@ -37,8 +37,6 @@ for row in nodes:
 fileHandler.write('],\n')
 
 ###########create links between nodes into json
-#note value is redundant
-
 #only extract from sqlite the number of fighters u specified
 inStatement = str(fighterID).replace('[','').replace(']','')
 SQL = 'SELECT DISTINCT from_id, to_id FROM relation WHERE from_id IN ({}) AND to_id IN ({})'.format(inStatement, inStatement)
