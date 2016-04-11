@@ -35,11 +35,6 @@ CREATE TABLE relation (
     to_id            INTEGER
 );
 
-CREATE TABLE html (
-    id              INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
-    body            TEXT
-);
-
 CREATE TABLE nationality (
     id              INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
     country         TEXT UNIQUE
