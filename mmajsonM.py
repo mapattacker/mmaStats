@@ -56,4 +56,4 @@ fileHandler.write(']}')
 fileHandler.close()
 cur.close()
 
-print 'Open miserables.html to view visualization'
+print 'JSON created.'
