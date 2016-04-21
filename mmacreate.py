@@ -1,5 +1,4 @@
-from bs4 import BeautifulSoup
-import urllib, sqlite3, time, traceback
+import sqlite3
 
 ######### CREATE SQLITE TABLE ############
 conn = sqlite3.connect('MMA.sqlite')
